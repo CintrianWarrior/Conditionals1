@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int childAge = 25;
-        if (childAge >= 7 && childAge < 18) {
-            System.out.println("Ты ходишь в школу");
+        int people = 102;
+        if (people <= 60) {
+            System.out.println("В вагоне есть сидячие места");
         }
-        if (childAge >=18 && childAge < 24) {
-            System.out.println("Ты закончил школу, можешь поступать в университет");
+        if (people < 102 && people > 60) {
+            System.out.println("В вагоне есть стоячие места");
         }
-        if (childAge >= 24) {
-            System.out.println("Ты окончил университет, пора искать первую работу");
+        if (people >= 102) {
+            System.out.println("Вагон полностью забит");
         }
     }
 }
