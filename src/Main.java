@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        int age = 17;
-        if (age >= 18) {
-            System.out.println("Поздравляю с совершеннолетием!");
+        int people = 102;
+        if (people <= 60) {
+            System.out.println("В вагоне есть сидячие места");
         }
-        if (age < 18) {
-            System.out.println("Извини, придется немного подождать");
+        if (people < 102 && people > 60) {
+            System.out.println("В вагоне есть стоячие места");
+        }
+        if (people >= 102) {
+            System.out.println("Вагон полностью забит");
         }
     }
 }
